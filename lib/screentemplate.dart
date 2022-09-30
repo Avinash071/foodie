@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 
 //ignore: must_be_immutable
 class ScreenTemplate extends StatefulWidget {
-  String title = '' ;
-  String recipe = '';
-  ScreenTemplate(this.recipe, this.title);
+  String screentitle = '' ;
+  String screenrecipe = '';
+  String screenphoto = '';
+  ScreenTemplate(this.screenrecipe,this.screentitle);
   @override
   State<ScreenTemplate> createState() => _ScreenTemplateState();
 }
@@ -16,7 +17,7 @@ class _ScreenTemplateState extends State<ScreenTemplate> {
       appBar: AppBar(
         centerTitle: false,
         backgroundColor: Colors.deepOrangeAccent,
-        title:Text(widget.title),
+        title:Text(widget.screentitle),
         titleTextStyle: const TextStyle(
           fontFamily: 'Shadows Into',
           fontSize: 30.0,
@@ -39,7 +40,7 @@ class _ScreenTemplateState extends State<ScreenTemplate> {
                 fontWeight: FontWeight.bold
               ),),
               SizedBox(height: 5),
-              Text(widget.recipe,
+              Text(widget.screenrecipe,
               style: TextStyle(
                 fontFamily: 'Shadows Into',
                 fontSize: 20.0,

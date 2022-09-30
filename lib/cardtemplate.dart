@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:foodie/screentemplate.dart';
 class CardTemplate extends StatefulWidget {
-  const CardTemplate({Key? key}) : super(key: key);
-
+  String cardtitle = '';
   @override
   State<CardTemplate> createState() => _CardTemplateState();
 }

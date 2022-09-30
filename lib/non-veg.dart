@@ -1,8 +1,14 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:foodie/cardtemplate.dart';
+import 'package:foodie/prawns.dart';
+import 'package:http/http.dart';
+
+import 'chicken.dart';
+import 'fish.dart';
+import 'mutton.dart';
 class NonVeg extends StatefulWidget {
   const NonVeg({Key? key}) : super(key: key);
-
   @override
   State<NonVeg> createState() => _NonVegState();
 }
@@ -29,7 +35,7 @@ class _NonVegState extends State<NonVeg> {
                           Center(
                             child: IconButton(
                               onPressed: () {
-                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => CardTemplate()));
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => Chicken()));
                               },
                               icon: Center(child: Image.asset('icons_main/foodicon.png')),
                               iconSize: 100,
@@ -39,7 +45,7 @@ class _NonVegState extends State<NonVeg> {
                           Center(
                             child: IconButton(
                               onPressed: () {
-                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => CardTemplate()));
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => Mutton()));
                               },
                               icon: Center(child: Image.asset('icons_main/foodicon.png')),
                               iconSize: 100,
@@ -78,7 +84,7 @@ class _NonVegState extends State<NonVeg> {
                           Center(
                             child: IconButton(
                               onPressed: () {
-                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => CardTemplate()));
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => Fish()));
                               },
                               icon: Center(child: Image.asset('icons_main/foodicon.png')),
                               iconSize: 100,
@@ -88,7 +94,7 @@ class _NonVegState extends State<NonVeg> {
                           Center(
                             child: IconButton(
                               onPressed: () {
-                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => CardTemplate()));
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => Prawns()));
                               },
                               icon: Center(child: Image.asset('icons_main/foodicon.png')),
                               iconSize: 100,
@@ -110,7 +116,7 @@ class _NonVegState extends State<NonVeg> {
                                   fontSize: 20
                               )),
                           SizedBox(width: 130),
-                          Text('Sea-Food',
+                          Text('Prawns',
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontFamily: 'Shadows Into',
