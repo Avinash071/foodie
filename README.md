@@ -20,5 +20,5 @@ A recipe app for food lovers out there
 It has a splash screen, uses spoonacular API, has a list view 
 ## Challenges Faced
 
-- Faced a lot of trouble when integrating api and had to change the way I get data to be able to access it
+- Faced a lot of trouble when integrating api and had to change the way I get data to be able to access the data
 - Tried a lot to put an appicon using different methods but was not able to change it
