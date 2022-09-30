@@ -1,16 +1,19 @@
 # foodie
 
-A new Flutter project.
+A recipe app for food lovers out there
 
-## Getting Started
+## Screenshots
+![Screenshot_2022-09-30-18-41-35-61_640bb8b481eb1e64ababc992987e2d68](https://user-images.githubusercontent.com/99753166/193277359-44c6f904-bba1-42cf-aa64-107aceafe923.jpg)
 
-This project is a starting point for a Flutter application.
+![Screenshot_2022-09-30-18-41-19-02_640bb8b481eb1e64ababc992987e2d68](https://user-images.githubusercontent.com/99753166/193277387-0a2fb409-b05b-476f-86db-b08a6192f001.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_2022-09-30-18-41-23-65_640bb8b481eb1e64ababc992987e2d68](https://user-images.githubusercontent.com/99753166/193277407-de594635-4cee-47c7-bd51-3fb706cbf823.jpg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Concepts Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It has a splash screen, uses spoonacular API, has a list view 
+## Challenges Faced
+
+- Faced a lot of trouble when integrating api and had to change the way I get data to be able to access it
+- Tried a lot to put an appicon using different methods but was not able to change it
+- 
