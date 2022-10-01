@@ -22,4 +22,4 @@ It has a splash screen, uses spoonacular API, has a list view
 
 - Faced a lot of trouble when integrating api and had to change the way I get data to be able to access the data
 - Tried a lot to put an appicon using different methods but was not able to change it
-- There is still a bug which does not allow my app to display data coming through API, I asked my mentor and he also has no idea
+- There is still a bug which does not allow my app to display data coming through API
